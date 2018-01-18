@@ -1,6 +1,5 @@
 import React from 'react'
 import { Route } from 'react-router'
-import Welcome from './containers/welcome'
 import Admin from './containers/admin/AdminPage'
 
 /*
@@ -12,7 +11,6 @@ https://reacttraining.com/react-router/web/guides/quick-start
  */
  export default (
    <div className="ant-layout-base">
-     <Route exact path="/" component={Welcome}/>
-     <Route path="/admin" component={Admin}/>
+     <Route path="/" component={Admin}/>
    </div>
  )

@@ -3,6 +3,8 @@ import { connect } from 'react-redux'
 import { login } from '../../actions/authActions'
 import {Form, Input, Button, Row, Col, message} from 'antd'
 import validateInput from '../../../server/shared/validations/login'
+import Header from '../header'
+import Footer from '../footer'
 import './login.less'
 
 const FormItem = Form.Item
